@@ -27,16 +27,16 @@
   <!-- limite -->
     <!-- Carrossel de Banners -->
     <div class="flex flex-col bg-gray-200 p-4">
-    <h1 id="cursosemdestaqu" class="text-yellow-500 font-bold p-8 text-center text-xl ">CURSOS EM DESTAQUE</h1>
+    <h1 id="cursosemdestaqu" class="underline md:underline-offset-8 decoration-yellow-600 decoration-4 underline-offset-1 font-bold p-8 text-center text-xl ">CURSOS EM DESTAQUE</h1>
     <!-- Banners -->
     <div class="relative overflow-hidden mx-auto w-full max-w-screen-xl mb-10">
-        <!-- Banner Container -->gig 
+        <!-- Banner Container -->
         <div id="banner-container" class="flex flex-nowrap gap-10 justify-center transition-transform duration-500 ease-in-out">
             <!-- Banner 1 -->
             <div class="banner-item bg-white flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-2xl">
                 <img src="imagens/image41.png" alt="Banner 1" class="w-full h-36 object-cover">
-                <h2 class="m-2 text-yellow-500 font-bold">Desenho Técnico 1</h2>
-                <button class="m-3 px-4 py-2 bg-yellow-500 text-white font-bold rounded-md hover:bg-yellow-600">
+                <h2 class="m-2 text-yellow-600 font-bold">Desenho Técnico 1</h2>
+                <button class="m-3 px-4 py-2 bg-yellow-600 text-white font-bold rounded-md hover:bg-yellow-600">
                     Ver Mais Detalhes
                 </button>
             </div>
@@ -44,8 +44,8 @@
             <!-- Banner 2 -->
             <div class="banner-item bg-white flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-2xl">
                 <img src="imagens/image41.png" alt="Banner 2" class="w-full h-36 object-cover">
-                <h2 class="m-2 text-yellow-500 font-bold">Desenho Técnico 2</h2>
-                <button class="m-3 px-4 py-2 bg-yellow-500 text-white font-bold rounded-md hover:bg-yellow-600">
+                <h2 class="m-2 text-yellow-600 font-bold">Desenho Técnico 2</h2>
+                <button class="m-3 px-4 py-2 bg-yellow-600 text-white font-bold rounded-md hover:bg-yellow-600">
                     Ver Mais Detalhes
                 </button>
             </div>
@@ -53,8 +53,8 @@
             <!-- Banner 3 -->
             <div class="banner-item bg-white flex flex-col items-center justify-center rounded-lg overflow-hidden shadow-2xl">
                 <img src="imagens/image41.png" alt="Banner 3" class="w-full h-36 object-cover">
-                <h2 class="m-2 text-yellow-500 font-bold">Desenho Técnico 3</h2>
-                <button class="m-3 px-4 py-2 bg-yellow-500 text-white font-bold rounded-md hover:bg-yellow-600">
+                <h2 class="m-2 text-yellow-600 font-bold">Desenho Técnico 3</h2>
+                <button class="m-3 px-4 py-2 bg-yellow-600 text-white font-bold rounded-md hover:bg-yellow-600">
                     Ver Mais Detalhes
                 </button>
             </div>
@@ -115,7 +115,7 @@
     @yield('continue')
  
     <div class="fixed bottom-0 right-0 m-4">
-        <button class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold w-12 h-12 rounded-full flex items-center justify-center" onclick="scrollToTop()">
+        <button class="bg-yellow-600 hover:bg-yellow-700 text-white font-bold w-12 h-12 rounded-full flex items-center justify-center" onclick="scrollToTop()">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
             </svg>

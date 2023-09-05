@@ -18,7 +18,7 @@ use App\Http\Controllers\AdmControler;
 //     return view('welcome');
 // });
 
-Route::get('home', [HomeControler::class, 'index']);
+Route::get('/', [HomeControler::class, 'index']);
 Route::post('home', [HomeControler::class, 'store']);
 
 

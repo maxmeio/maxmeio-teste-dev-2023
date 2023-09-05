@@ -4,19 +4,19 @@
 
 @section('header')
 <ul class="flex flex-col sm:flex-row justify-center mt-4 sm:mt-10">
-    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-400">
+    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-600">
         <a href="#quemsomos">Quem somos</a>
     </li>
-    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-400">
+    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-600">
         <a href="#vantagem">Vantagens de assinar</a>
     </li>
-    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-400">
+    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-600">
         <a href="#cursosemdestaque">Quero assinar</a>
     </li>
-    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-400">
+    <li class="mr-0 mb-2 sm:mr-6 sm:mb-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-600">
         <a href="#faq">Perguntas frequentes</a>
     </li>
-    <li class="mr-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-400">
+    <li class="mr-0 hover:underline md:underline-offset-4 hover:text-black hover:border-b-2 hover:border-yellow-600">
         <a href="#contato">Contato</a>
     </li>
 </ul>
@@ -31,7 +31,7 @@
 
  <!-- Imagem de cabeçalho -->
     <div class="w-full bg-gray-500 flex items-center justify-center">
-        <img class="h-auto w-full object-cover" src="imagens/image41.png" alt="Minha Imagem">
+        <img class="h-auto w-full object-cover" src="imagens/image.png" alt="Minha Imagem">
     </div>
 
     <!-- Conteúdo centralizado -->
@@ -61,12 +61,12 @@
         <!-- Retângulos com texto à direita -->
         <div class="flex-initial md:w-2/4 m-4">
             <div class="m-2">
-                <h2 class="m-4 text-yellow-400 font-bold text-3xl">Lorem ipsum dolor sit amet,</h2>
+                <h2 class="m-4 text-yellow-600 font-bold text-3xl">Lorem ipsum dolor sit amet,</h2>
                 <h3 class="m-4 text-xl">consectur adipiscing elit</h3>
             </div>
             
             <!-- Primeiro retângulo -->
-            <div class="bg-yellow-500 rounded-xl p-4 mx-7 my-5 h-24 flex">
+            <div class="bg-yellow-600 rounded-xl p-4 mx-7 my-5 h-24 flex">
                 <p class="text-white  font-bold flex-none text-5xl ml-2">1 |</p>
                 <div class="mx-10">
                     <p class="text-white text-xl flex-1 w-64 font-semibold"> Lorem ipsum dolor sit amet</p>
@@ -78,7 +78,7 @@
             </div>
             
             <!-- Segundo retângulo -->
-            <div class="bg-yellow-500 rounded-xl p-4 mx-7 my-5 h-24 flex">
+            <div class="bg-yellow-600 rounded-xl p-4 mx-7 my-5 h-24 flex">
                 <p class="text-white  font-bold flex-none text-5xl ml-2">2 |</p>
                 <div class="mx-10">
                     <p class="text-white text-xl flex-1 w-64 font-semibold"> Lorem ipsum dolor sit amet</p>
@@ -90,7 +90,7 @@
             </div>
             
             <!-- Terceiro retângulo -->
-            <div class="bg-yellow-500 rounded-xl p-4 mx-7 my-5 h-24 flex">
+            <div class="bg-yellow-600 rounded-xl p-4 mx-7 my-5 h-24 flex">
                 <p class="text-white  font-bold flex-none text-5xl ml-2">3 |</p>
                 <div class="mx-10">
                     <p class="text-white text-xl flex-1 w-64 font-semibold"> Lorem ipsum dolor sit amet</p>
@@ -102,7 +102,7 @@
             </div>
 
             <!-- Quarto retângulo -->
-            <div class="bg-yellow-500 rounded-xl p-4 mx-7 my-5 h-24 flex">
+            <div class="bg-yellow-600 rounded-xl p-4 mx-7 my-5 h-24 flex">
                 <p class="text-white  font-bold flex-none text-5xl ml-2">4 |</p>
                 <div class="mx-10">
                     <p class="text-white text-xl flex-1 w-64 font-semibold"> Lorem ipsum dolor sit amet</p>
@@ -114,7 +114,7 @@
             </div>
 
             <!-- Botão -->
-            <button class="bg-yellow-500 text-white font-semibold py-1 px-3 md:px-14 rounded-full mt-10 ml-9">
+            <button class="bg-yellow-600 text-white font-semibold py-1 px-3 md:px-14 rounded-full mt-10 ml-9">
                 Lorem ipsum
             </button>
         </div>
@@ -193,7 +193,7 @@
         </div>
 
         <div class="flex justify-center">
-            <button class="m-8 bg-yellow-400 text-white font-semibold py-2 px-8 rounded-full">Saiba mais</button>
+            <button class="m-8 bg-yellow-600 text-white font-semibold py-2 px-8 rounded-full">Saiba mais</button>
         </div>
         
     </div>
@@ -216,7 +216,7 @@
 
 <!-- contato ------------------------------------------------------------------------------------------------>
                 <div class="m-8">
-                    <h1 id="contato" class="text-center font-bold text-xl underline md:underline-offset-8 decoration-yellow-500 decoration-4 underline-offset-1">CONTATO</h1>
+                    <h1 id="contato" class="text-center font-bold text-xl underline md:underline-offset-8 decoration-yellow-600 decoration-4 underline-offset-1">CONTATO</h1>
                 </div>
     <div class="mx-auto bg-white rounded-lg shadow-md flex flex-row justify-center">
         
@@ -242,23 +242,23 @@
             <form action="/home" method="post" class="w-full">
                 @csrf
                 <div class="mb-2">
-                    <input type="text" name='nome' placeholder="Digite seu nome..." class="w-full border border-yellow-500 rounded-2xl p-2 mb-2">
+                    <input type="text" name='nome' placeholder="Digite seu nome..." class="w-full border border-yellow-600 rounded-2xl p-2 mb-2">
                     @error('nome')
                         <p class="text-red-500 text-sm">{{ $message }}</p>
                     @enderror
                 </div>
                 <div class="mb-2">
-                    <input type="text" name='email' placeholder="Digite seu E-mail..." class="w-full border border-yellow-500 rounded-2xl p-2">
+                    <input type="text" name='email' placeholder="Digite seu E-mail..." class="w-full border border-yellow-600 rounded-2xl p-2">
                     @error('email')
                         <p class="text-red-500 text-sm">{{ $message }}</p>
                     @enderror
                 </div>
                 <div class="flex flex-col md:flex-row mb-2">
-                    <input type="text" name='interesse' placeholder="Digite seu interesse..." class="w-full md:w-2/3 border border-yellow-500 rounded-2xl p-2 mb-2 md:mb-0 md:mr-3">
+                    <input type="text" name='interesse' placeholder="Digite seu interesse..." class="w-full md:w-2/3 border border-yellow-600 rounded-2xl p-2 mb-2 md:mb-0 md:mr-3">
                     @error('interesse')
                         <p class="text-red-500 text-sm">{{ $message }}</p>
                     @enderror
-                    <input type="date" name='data_nascimento' placeholder="  /  /  ..." class="w-full md:w-1/3 border border-yellow-500 rounded-2xl p-2">
+                    <input type="date" name='data_nascimento' placeholder="  /  /  ..." class="w-full md:w-1/3 border border-yellow-600 rounded-2xl p-2">
                     @error('data_nascimento')
                         <p class="text-red-500 text-sm">{{ $message }}</p>
                     @enderror
@@ -269,7 +269,7 @@
                         <p class="text-red-500 text-sm">{{ $message }}</p>
                     @enderror
                 </div>
-                <button type="submit" class="bg-yellow-500 text-white py-2 px-12 rounded-3xl hover:bg-yellow-600">Enviar</button>
+                <button type="submit" class="bg-yellow-600 text-white py-2 px-12 rounded-3xl hover:bg-yellow-600">Enviar</button>
             </form>
         </div>
 

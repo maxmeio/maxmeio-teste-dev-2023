@@ -14,6 +14,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "owl.carousel": "^2.3.4",
         "vue-owl-carousel2": "^2.0.7"
     }
 }
